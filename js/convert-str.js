@@ -1,5 +1,8 @@
 function convertString(str) {
   let resStr = '';
+  if (str.length > 100) {
+    return resStr;
+  };
   for (let char of str) {
     if (char === ' ') {
       resStr = resStr + '%20';
