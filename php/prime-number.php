@@ -1,4 +1,7 @@
 <?php
+/**
+ * The function displays all prime numbers from a sequence from 0 to 100.
+ */
 function prime_number() {
   $n = 100;
   $prime_number = [];
