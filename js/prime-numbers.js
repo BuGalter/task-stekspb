@@ -1,4 +1,12 @@
-function primeNumber() {
+/**
+ * prime-numbers module.
+ * @module task-stekspb/js/prime-numbers
+ */
+
+function primeNumbers() {
+  /**
+   * The function displays all prime numbers from a sequence from 0 to 100.
+   */
   const n = 100;
   let primeNumbers = [];
   for (let i = 0; i <= n; i += 1) {
@@ -14,4 +22,4 @@ function primeNumber() {
   };
 };
 
-primeNumber();
+primeNumbers();
