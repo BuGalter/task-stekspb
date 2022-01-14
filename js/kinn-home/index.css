@@ -8,3 +8,11 @@ body {
   margin-top: auto;
   margin-left: auto;
 }
+
+.topnav__item {
+  color: #56593D;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
