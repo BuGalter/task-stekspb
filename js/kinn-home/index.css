@@ -34,7 +34,6 @@ body {
   background: url(./static/logo.png);
   height: 26px;
   width: 90px;
-  top: 32px;
   border-radius: 0px;
 }
 
@@ -42,23 +41,20 @@ body {
   background: url(./static/human.png);
   width: 32px;
   height: 32px;
-  top: 52px;
 }
 
 .icon-basket {
   background: url(./static/basket.png);
   width: 32px;
   height: 32px;
-  top: 52px;
 }
 
 .icon-search {
   background: url(./static/search.png);
   width: 32px;
   height: 32px;
-  top: 52px;
-  margin-left: 4.5px;
-  margin-right: 4.5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .header-icons {
