@@ -9,10 +9,59 @@ body {
   margin-left: auto;
 }
 
+.header {
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+.header .topnav ul {
+  display: flex;
+  list-style: none;
+}
+
 .topnav__item {
   color: #56593D;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   text-transform: uppercase;
+  margin: 20px 10px;
+}
+
+.header-logo {
+  background: url(./static/logo.png);
+  height: 26px;
+  width: 90px;
+  top: 32px;
+  border-radius: 0px;
+}
+
+.icon-human {
+  background: url(./static/human.png);
+  width: 32px;
+  height: 32px;
+  top: 52px;
+}
+
+.icon-basket {
+  background: url(./static/basket.png);
+  width: 32px;
+  height: 32px;
+  top: 52px;
+}
+
+.icon-search {
+  background: url(./static/search.png);
+  width: 32px;
+  height: 32px;
+  top: 52px;
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+}
+
+.header-icons {
+  display: flex;
+  margin-right: 67px;
 }
