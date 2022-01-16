@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper-content {
-  max-width: 1424px;
+  max-width: 98%;
   margin-top: auto;
   margin-left: auto;
 }
@@ -60,4 +60,15 @@ body {
 .header-icons {
   display: flex;
   padding-right: 67px;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav ul {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .topnav ul li {
+    margin: 5px;
+  }
 }
