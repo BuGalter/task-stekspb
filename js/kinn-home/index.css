@@ -140,7 +140,6 @@ body {
 
 .cover-story-conteiner {
   max-width: 1360px;
-  max-height: 302px;
   margin-top: 87.5px;
   margin-right: auto;
   margin-left: auto;
@@ -148,7 +147,6 @@ body {
 
 .cover-story-text {
   max-width: 1194px;
-  max-height: 243px;
   margin-top: 6.5px;
   margin-right: auto;
   margin-left: auto;
@@ -159,6 +157,67 @@ body {
   font-weight: normal;
   font-size: 57px;
   line-height: 81px;
+  text-align: center;
+  color: #56593D;
+}
+
+.story-links {
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+}
+
+.links-bottom-line {
+  border-bottom-width: 2px; /* Толщина линии внизу */
+  border-bottom-style: solid; /* Стиль линии внизу */
+  border-bottom-color: #56593D;
+}
+
+.story-links__stories {
+  margin-left: 68px;
+}
+
+.story-links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1.6px;
+  color: #56593D;
+  text-decoration: none;
+}
+
+.link-arrow {
+  display: inline-block;
+  background: url(./static/arrow.png);
+  margin-left: 6px;
+  width: 14px;
+  height: 11px;
+}
+
+.showcase-container {
+  max-width: 1360px;
+  margin-top: 88.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase {
+  max-width: 1360px;
+  margin-top: 63.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase-title__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
   text-align: center;
   color: #56593D;
 }
