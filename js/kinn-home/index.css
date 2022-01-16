@@ -246,6 +246,14 @@ body {
   background: url(/static/img/first-product.png) no-repeat;
 }
 
+.second__img {
+  background: url(/static/img/second-product.png) no-repeat;
+}
+
+.third__img {
+  background: url(/static/img/third-product.png) no-repeat;
+}
+
 .product__text {
   display: block;
   left: calc(50% - 144px/2 + 15.67px);
@@ -270,6 +278,8 @@ body {
   letter-spacing: 1.62px;
   color: #717353;
 }
+
+
 
 @media screen and (max-width: 500px) {
   .topnav ul {
