@@ -1,12 +1,15 @@
 body {
   max-width: 1440px;
   background: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .wrapper-content {
   max-width: 98%;
-  margin-top: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -37,6 +40,11 @@ body {
   border-radius: 0px;
 }
 
+.header-icons {
+  display: flex;
+  padding-right: 67px;
+}
+
 .icon-human {
   background: url(./static/human.png);
   width: 32px;
@@ -57,9 +65,36 @@ body {
   margin-right: 15px;
 }
 
-.header-icons {
+.main-content {
+  margin-top: 24px;
+}
+
+.content-cover {
+  max-width: 1360px;
+  min-height: 732px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-cover-image {
+  max-width: 1328px;
+  min-height: 700px;
+  margin-top: 15.5px;
+  margin-bottom: 16.5px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(./static/img/apples.png) no-repeat;
+  background-size: contain;
   display: flex;
-  padding-right: 67px;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+}
+
+.cover-elements {
+  max-width: 1200px;
+  min-height: 572px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 500px) {
