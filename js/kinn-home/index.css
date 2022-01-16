@@ -297,7 +297,30 @@ body {
   background-size: contain;
 }
 
+.disign-story-conteiner {
+  max-width: 1360px;
+  min-height: 746px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.disign-story {
+  display: flex;
+  max-width: 1328px;
+  min-height: 618.25px;
+  margin-top: 64.16px;;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disign-story__foto {
+  width: 743px;
+  height: 618px;
+  background: url(/static/img/story-foto.png);
+  border-radius: 0px;
+  background-size: contain;
+}
 
 @media screen and (max-width: 500px) {
   .topnav ul {
