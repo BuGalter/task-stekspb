@@ -322,6 +322,28 @@ body {
   background-size: contain;
 }
 
+.disign-story-text {
+  width: 521.31px;
+  height: 391px;
+  margin-left: 31.66px;
+  margin-top: 0px;
+}
+
+.story-text__title {
+  margin-top: 62.84px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 39px;
+  text-align: center;
+  color: #56593D;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
