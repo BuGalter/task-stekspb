@@ -3,7 +3,7 @@ body {
   background: #FFF;
   margin-left: auto;
   margin-right: auto;
-
+  font-family: Roboto;
 }
 
 .wrapper-content {
@@ -71,14 +71,14 @@ body {
 
 .content-cover {
   max-width: 1360px;
-  min-height: 732px;
+  max-height: 732px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .content-cover-image {
-  max-width: 1328px;
-  min-height: 700px;
+  width: 1328px;
+  height: 700px;
   margin-top: 15.5px;
   margin-bottom: 16.5px;
   margin-right: auto;
@@ -91,11 +91,54 @@ body {
 }
 
 .cover-elements {
-  max-width: 1200px;
-  min-height: 572px;
+  width: 1200px;
+  height: 572px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
+
+.cover-element-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cover-elements__collections {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  color: #56593D;
+}
+
+.cover-elements__elevate {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 60px;
+  color: #56593D;
+  margin-top: 10px;
+}
+
+.cover-elements_button-shop {
+  background-color: #56593D;
+  width: 154px;
+  height: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1.575px;
+  text-transform: uppercase;
+  color: #FFFFEF;
+  margin-top: 25px;
+}
+
+
 
 @media screen and (max-width: 500px) {
   .topnav ul {
