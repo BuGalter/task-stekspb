@@ -453,6 +453,23 @@ body {
   color: #56593D;
 }
 
+.form-text {
+  width: 410px;
+  height: 29px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 16px;
+}
+
+.form-text__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 29px;
+  text-align: center;
+  color: #56593D;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
