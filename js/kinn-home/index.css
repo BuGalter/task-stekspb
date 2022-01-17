@@ -629,6 +629,38 @@ body {
   margin-top: 17px;
 }
 
+.footer-menu-explore {
+  width: 252,8px;
+  height: 221px;
+  margin-left: 32px;
+  padding-top: 64.2px;
+}
+
+.menu__title {
+  width: 75px;
+  height: 19px;
+  margin-left: 32px;
+}
+
+.menu__line {
+  margin-left: 32px;
+  width: 40px;
+  height: 1px;
+  margin-top: 17px;
+  background: #FFF;
+  border-radius: 0px;
+}
+
+.menu-title__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1.575px;
+  text-transform: uppercase;
+  color: #FFFFEF;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
