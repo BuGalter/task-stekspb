@@ -577,6 +577,23 @@ body {
   background-size: contain;
 }
 
+.footer {
+  width: 1424px;
+  height: 382px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 63.8px;
+}
+
+.footer-elements-conteiner {
+  display: flex;
+  width: 1392px;
+  height: 221px;
+  margin-left: 0;
+  margin-right: 32px;
+  margin-top: 64.2px;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
