@@ -506,6 +506,47 @@ body {
   color: #FFFFEF;
 }
 
+.gallery-conteiner {
+  max-width: 1360px;
+  min-height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.gallery {
+  width: 1360px;
+  min-height: 392px;
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 64.2px;
+}
+
+.gallery-title {
+  width: 173px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2px;
+}
+
+.gallery-title_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #56593D;
+}
+
+.gallery-fotos {
+  width: 1312px;
+  height: 328px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
