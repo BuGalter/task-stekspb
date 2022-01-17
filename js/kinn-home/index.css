@@ -540,11 +540,41 @@ body {
 }
 
 .gallery-fotos {
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
   width: 1312px;
   height: 328px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
+}
+
+.gallery-foto {
+  width: 320px;
+  height: 320px;
+  margin-left: 8px;
+  border-radius: 0px;
+}
+
+.foto__first{
+  background: url(/static/img/first-gallery.png) no-repeat;
+  background-size: contain;
+}
+
+.foto__second{
+  background: url(/static/img/second-gallery.png) no-repeat;
+  background-size: contain;
+}
+
+.foto__third{
+  background: url(/static/img/third.png) no-repeat;
+  background-size: contain;
+}
+
+.foto__fourth{
+  background: url(/static/img/fourth-gallery.png) no-repeat;
+  background-size: contain;
 }
 
 @media screen and (max-width: 500px) {
