@@ -472,6 +472,7 @@ body {
 
 .form-input {
   display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
   width: 500px;
   height: 37px;
   margin-left: auto;
@@ -483,10 +484,26 @@ body {
   width: 340px;
   height: 37px;
   margin-left: calc(50% - 340px/2 - 80px);
-  margin-top: 31px;
   border-radius: 0px;
   border: none;
   border-bottom: 1px solid #56593D;
+}
+
+.subscribe-btn {
+  width: 144px;
+  height: 26px;
+  margin-left: 16.41px; 
+  margin-top: 16.8px;
+  background-color: #56593D;
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #FFFFEF;
 }
 
 @media screen and (max-width: 500px) {
