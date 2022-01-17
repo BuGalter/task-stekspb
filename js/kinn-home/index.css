@@ -578,20 +578,55 @@ body {
 }
 
 .footer {
-  width: 1424px;
-  height: 382px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 63.8px;
+  display: flex;
+  min-height: 382px;
+  background-color: #717353;
 }
 
-.footer-elements-conteiner {
-  display: flex;
-  width: 1392px;
-  height: 221px;
-  margin-left: 0;
-  margin-right: 32px;
-  margin-top: 64.2px;
+.footer-trademark {
+  width: 348px;
+  height: 124px;
+  padding-top: 64.2px;
+}
+
+.trademark {
+  margin-left: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFEF;
+}
+
+.company {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFEF;
+}
+
+.trademark__line {
+  margin-left: 32px;
+  width: 40px;
+  height: 1px;
+  margin-top: 15px;
+  background: #FFF;
+  border-radius: 0px;
+}
+
+.trademark__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFEF;
+}
+
+.tredemark-text {
+  height: 51px;
+  margin-left: 32px;
+  margin-top: 17px;
 }
 
 @media screen and (max-width: 500px) {
