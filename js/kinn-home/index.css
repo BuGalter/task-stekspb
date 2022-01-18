@@ -681,6 +681,11 @@ body {
   margin-left: 32px;
 }
 
+.footer-menu-help {
+  margin-left: 178.5px;
+  padding-top: 60px;
+}
+
 @media screen and (max-width: 500px) {
   .topnav ul {
     flex-direction: column;
