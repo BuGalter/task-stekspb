@@ -579,6 +579,7 @@ body {
 
 .footer {
   display: flex;
+  width: 1424px;
   min-height: 382px;
   background-color: #717353;
 }
@@ -684,6 +685,34 @@ body {
 .footer-menu-help {
   margin-left: 178.5px;
   padding-top: 60px;
+}
+
+.icons-networks {
+  display: flex;
+  height: 22px;
+  padding-left: 350px;
+  padding-top: 72.2px;
+}
+
+.network__icon{
+  width: 22px;
+  height: 22px;
+  margin-left: 19px;
+}
+
+.insta {
+  background: url(/static/insta.png) no-repeat;
+  background-size: contain;
+}
+
+.no-name {
+  background: url(/static/no-name.png) no-repeat;
+  background-size: contain;
+}
+
+.facebook {
+  background: url(/static/facebook.png) no-repeat;
+  background-size: contain;
 }
 
 @media screen and (max-width: 500px) {
