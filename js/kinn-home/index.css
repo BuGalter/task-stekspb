@@ -630,10 +630,8 @@ body {
 }
 
 .footer-menu-explore {
-  width: 252,8px;
-  height: 221px;
   margin-left: 32px;
-  padding-top: 64.2px;
+  padding-top: 60px;
 }
 
 .menu__title {
@@ -659,6 +657,28 @@ body {
   letter-spacing: 1.575px;
   text-transform: uppercase;
   color: #FFFFEF;
+}
+
+.menu-explore__shop {
+  height: 44px;
+  margin-left: 32px;
+  margin-top: 14px;
+}
+
+.menu-explore-shop__text {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1.575px;
+  text-transform: uppercase;
+  color: #FFFFEF;
+}
+
+.menu-explore__style {
+  height: 41px;
+  margin-left: 32px;
 }
 
 @media screen and (max-width: 500px) {
